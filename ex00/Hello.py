@@ -4,7 +4,7 @@ ft_set = {"Hello", "tutu!"}
 ft_dict = {"Hello": "titi!"}
 
 ft_list[1] = "World!"
-ft_tuple[1] = "Morocco!"
+ft_tuple = ("Hello", "Morocco!")
 ft_set = {"Hello", "Khouribga!"}
 ft_dict["Hello"] = "1337Khouribga!"
 
