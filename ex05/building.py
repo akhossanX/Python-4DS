@@ -1,6 +1,5 @@
 
 import sys
-import string
 
 
 def main(text):
@@ -24,10 +23,12 @@ def main(text):
 
     total_characters = len(text)
 
-    print(f"The text contains {total_characters} character{'s' if total_characters != 1 else ''}:")
+    print(f"The text contains {total_characters} "
+          f"character{'s' if total_characters != 1 else ''}:")
     print(f"{upper_letters} upper letter{'s' if upper_letters != 1 else ''}")
     print(f"{lower_letters} lower letter{'s' if lower_letters != 1 else ''}")
-    print(f"{punctuation_marks} punctuation mark{'s' if punctuation_marks != 1 else ''}")
+    print(f"{punctuation_marks} "
+          f"punctuation mark{'s' if punctuation_marks != 1 else ''}")
     print(f"{spaces} space{'s' if spaces != 1 else ''}")
     print(f"{digits} digit{'s' if digits != 1 else ''}")
 
