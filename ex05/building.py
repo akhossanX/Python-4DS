@@ -17,7 +17,8 @@ def main(text):
 
     upper_letters = sum(1 for char in text if char.isupper())
     lower_letters = sum(1 for char in text if char.islower())
-    punctuation_marks = sum(1 for char in text if char in "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~")
+    punctuation_marks = sum(
+        1 for char in text if char in "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~")
     digits = sum(1 for char in text if char.isdigit())
     spaces = sum(1 for char in text if char.isspace())
 
