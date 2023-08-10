@@ -1,4 +1,7 @@
 def ft_tqdm(lst: range) -> None:
+    """
+    Prints a progress bar and yields items from the range object
+    """
     total = len(lst)
     bar_length = 158
 
