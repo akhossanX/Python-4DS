@@ -5,6 +5,7 @@ setup(
     version="0.0.1",
     description="Legends package",
     author="akhossan",
+    license="MIT",
     author_email="akhossan@1337.student.ma",
     packages=find_packages(),
     classifiers=[
